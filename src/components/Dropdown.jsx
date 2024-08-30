@@ -4,13 +4,7 @@ import {
   PhoneIcon,
   PlayCircleIcon,
 } from '@heroicons/react/20/solid';
-import {
-  ArrowPathIcon,
-  ChartPieIcon,
-  CursorArrowRaysIcon,
-  FingerPrintIcon,
-  SquaresPlusIcon,
-} from '@heroicons/react/24/outline';
+import { ChartPieIcon, FingerPrintIcon } from '@heroicons/react/24/outline';
 import { useState } from 'react';
 
 const Dropdown = () => {
