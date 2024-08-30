@@ -18,34 +18,22 @@ const Dropdown = () => {
 
   const menu = [
     {
-      name: 'Analytics',
+      name: '홈',
       description: 'Get a better understanding of your traffic',
       href: '#',
       icon: ChartPieIcon,
     },
+    // {
+    //   name: '시리즈',
+    //   description: 'Speak directly to your customers',
+    //   href: '#',
+    //   icon: CursorArrowRaysIcon,
+    // },
     {
-      name: 'Engagement',
-      description: 'Speak directly to your customers',
-      href: '#',
-      icon: CursorArrowRaysIcon,
-    },
-    {
-      name: 'Security',
+      name: '영화',
       description: "Your customers' data will be safe and secure",
       href: '#',
       icon: FingerPrintIcon,
-    },
-    {
-      name: 'Integrations',
-      description: 'Connect with third-party tools',
-      href: '#',
-      icon: SquaresPlusIcon,
-    },
-    {
-      name: 'Automations',
-      description: 'Build strategic funnels that will convert',
-      href: '#',
-      icon: ArrowPathIcon,
     },
   ];
 
@@ -59,7 +47,7 @@ const Dropdown = () => {
   };
 
   return (
-    <Popover className='relative'>
+    <Popover className='relative hidden sm:block md:hidden'>
       <PopoverButton
         onClick={handleToggleMenu}
         className='inline-flex items-center text-sm font-semibold leading-6 text-white text-gray-900 gap-x-1 focus:outline-none'
